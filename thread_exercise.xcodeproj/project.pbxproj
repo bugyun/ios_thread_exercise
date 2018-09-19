@@ -25,6 +25,8 @@
 		F72B7544214FA65200B86FBF /* NSOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72B7543214FA65200B86FBF /* NSOperationViewController.m */; };
 		F72B7547214FC79C00B86FBF /* ZYHOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F72B7546214FC79C00B86FBF /* ZYHOperation.m */; };
 		F7C6E54321511FDA00F7FB3C /* ZYHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C6E54221511FDA00F7FB3C /* ZYHTableViewController.m */; };
+		F7C6E5462151F0A000F7FB3C /* ZYHAPP.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C6E5452151F0A000F7FB3C /* ZYHAPP.m */; };
+		F7C6E54A2151FA1800F7FB3C /* apps.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7C6E5492151FA1800F7FB3C /* apps.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,9 @@
 		F72B7546214FC79C00B86FBF /* ZYHOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYHOperation.m; sourceTree = "<group>"; };
 		F7C6E54121511FDA00F7FB3C /* ZYHTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYHTableViewController.h; sourceTree = "<group>"; };
 		F7C6E54221511FDA00F7FB3C /* ZYHTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYHTableViewController.m; sourceTree = "<group>"; };
+		F7C6E5442151F0A000F7FB3C /* ZYHAPP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYHAPP.h; sourceTree = "<group>"; };
+		F7C6E5452151F0A000F7FB3C /* ZYHAPP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYHAPP.m; sourceTree = "<group>"; };
+		F7C6E5492151FA1800F7FB3C /* apps.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apps.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,17 +119,18 @@
 		5CB20BD9089BEF78C0C12FC4 /* thread_exercise */ = {
 			isa = PBXGroup;
 			children = (
-				F7C6E54021511F2F00F7FB3C /* 05TableView */,
-				F72B7540214F9FA700B86FBF /* 03Single */,
 				F72B7541214F9FED00B86FBF /* 01NSThread */,
 				F72B753F214F9F9A00B86FBF /* 02GCD */,
+				F72B7540214F9FA700B86FBF /* 03Single */,
 				F72B753E214F9F6300B86FBF /* 04NSOperation */,
-				5CB20AA9DD72B30786EB172C /* Info.plist */,
-				5CB20CC06F799AD680EAC083 /* Assets.xcassets */,
-				5CB2099919AAA62897435196 /* LaunchScreen.storyboard */,
-				5CB20D96011391E80E5C9A9F /* main.m */,
+				F7C6E54021511F2F00F7FB3C /* 05TableView */,
 				5CB205CCB11A6CDE85B25B4C /* AppDelegate.h */,
 				5CB20D513697B9B7E3D02F80 /* AppDelegate.m */,
+				F7C6E5492151FA1800F7FB3C /* apps.plist */,
+				5CB20CC06F799AD680EAC083 /* Assets.xcassets */,
+				5CB20AA9DD72B30786EB172C /* Info.plist */,
+				5CB2099919AAA62897435196 /* LaunchScreen.storyboard */,
+				5CB20D96011391E80E5C9A9F /* main.m */,
 				5CB202F98A900DB5CD588314 /* Main.storyboard */,
 			);
 			path = thread_exercise;
@@ -194,6 +200,8 @@
 			children = (
 				F7C6E54121511FDA00F7FB3C /* ZYHTableViewController.h */,
 				F7C6E54221511FDA00F7FB3C /* ZYHTableViewController.m */,
+				F7C6E5442151F0A000F7FB3C /* ZYHAPP.h */,
+				F7C6E5452151F0A000F7FB3C /* ZYHAPP.m */,
 			);
 			path = 05TableView;
 			sourceTree = "<group>";
@@ -278,6 +286,7 @@
 				5CB20F34CB23137717145DC4 /* Assets.xcassets in Resources */,
 				5CB200EBBB273C39DF436C14 /* LaunchScreen.storyboard in Resources */,
 				5CB203ADBA146D03FF19E6EC /* Main.storyboard in Resources */,
+				F7C6E54A2151FA1800F7FB3C /* apps.plist in Resources */,
 				5CB2040C524791680FBF213B /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +320,7 @@
 				F72B753D214F9C9B00B86FBF /* ZYHSingleTool.m in Sources */,
 				F72B7539214F8D4A00B86FBF /* SingletonViewController.m in Sources */,
 				5CB20C44777B5809EDC60B11 /* ZYHNSThread.m in Sources */,
+				F7C6E5462151F0A000F7FB3C /* ZYHAPP.m in Sources */,
 				F72B7530214A842C00B86FBF /* GCDViewController.m in Sources */,
 				F72B7536214F8C6D00B86FBF /* ZYHTool.m in Sources */,
 				F7C6E54321511FDA00F7FB3C /* ZYHTableViewController.m in Sources */,
