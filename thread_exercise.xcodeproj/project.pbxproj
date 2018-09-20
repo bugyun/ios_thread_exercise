@@ -18,6 +18,7 @@
 		5CB20E668C0FEF69FCAE5C1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB200E816AF9CF94F5BA3A7 /* ViewController.m */; };
 		5CB20F34CB23137717145DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB20CC06F799AD680EAC083 /* Assets.xcassets */; };
 		5CB20FFD7DB3FE29AF75147F /* thread_exerciseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB204E4CE220731A60F1D73 /* thread_exerciseUITests.m */; };
+		F711F077215333F900501CB0 /* RunLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F711F076215333F900501CB0 /* RunLoopViewController.m */; };
 		F72B7530214A842C00B86FBF /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72B752F214A842C00B86FBF /* GCDViewController.m */; };
 		F72B7536214F8C6D00B86FBF /* ZYHTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F72B7535214F8C6D00B86FBF /* ZYHTool.m */; };
 		F72B7539214F8D4A00B86FBF /* SingletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72B7538214F8D4A00B86FBF /* SingletonViewController.m */; };
@@ -60,6 +61,8 @@
 		5CB20D513697B9B7E3D02F80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5CB20D96011391E80E5C9A9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5CB20DEE2275ACE9CC338C99 /* SafeThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeThreadViewController.h; sourceTree = "<group>"; };
+		F711F075215333F900501CB0 /* RunLoopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopViewController.h; sourceTree = "<group>"; };
+		F711F076215333F900501CB0 /* RunLoopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopViewController.m; sourceTree = "<group>"; };
 		F72B752E214A842C00B86FBF /* GCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
 		F72B752F214A842C00B86FBF /* GCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
 		F72B7534214F8C6D00B86FBF /* ZYHTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYHTool.h; sourceTree = "<group>"; };
@@ -124,6 +127,7 @@
 				F72B7540214F9FA700B86FBF /* 03Single */,
 				F72B753E214F9F6300B86FBF /* 04NSOperation */,
 				F7C6E54021511F2F00F7FB3C /* 05TableView */,
+				F711F0742153339800501CB0 /* 06RunLoop */,
 				5CB205CCB11A6CDE85B25B4C /* AppDelegate.h */,
 				5CB20D513697B9B7E3D02F80 /* AppDelegate.m */,
 				F7C6E5492151FA1800F7FB3C /* apps.plist */,
@@ -144,6 +148,15 @@
 				5CB204E0A1AD57E0AC5E5FCA /* thread_exerciseUITests */,
 				5CB200A7ED3CA6F3F65CEBE2 /* .gitignore */,
 			);
+			sourceTree = "<group>";
+		};
+		F711F0742153339800501CB0 /* 06RunLoop */ = {
+			isa = PBXGroup;
+			children = (
+				F711F075215333F900501CB0 /* RunLoopViewController.h */,
+				F711F076215333F900501CB0 /* RunLoopViewController.m */,
+			);
+			path = 06RunLoop;
 			sourceTree = "<group>";
 		};
 		F72B753E214F9F6300B86FBF /* 04NSOperation */ = {
@@ -324,6 +337,7 @@
 				F72B7530214A842C00B86FBF /* GCDViewController.m in Sources */,
 				F72B7536214F8C6D00B86FBF /* ZYHTool.m in Sources */,
 				F7C6E54321511FDA00F7FB3C /* ZYHTableViewController.m in Sources */,
+				F711F077215333F900501CB0 /* RunLoopViewController.m in Sources */,
 				F72B7547214FC79C00B86FBF /* ZYHOperation.m in Sources */,
 				5CB202FBEF88C631CB1546F7 /* SafeThreadViewController.m in Sources */,
 				5CB20E24E4C1F4A4A4BEA195 /* DownFileViewController.m in Sources */,
