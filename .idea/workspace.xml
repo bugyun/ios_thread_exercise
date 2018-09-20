@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1afbd12-a346-4da7-a6eb-0b51695e442c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/thread_exercise/06RunLoop/RunLoopViewController.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread_exercise/06RunLoop/RunLoopViewController.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread_exercise.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/thread_exercise.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread_exercise/06RunLoop/RunLoopViewController.m" beforeDir="false" afterPath="$PROJECT_DIR$/thread_exercise/06RunLoop/RunLoopViewController.m" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thread_exercise/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/thread_exercise/Base.lproj/Main.storyboard" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread_exercise/main.m" beforeDir="false" afterPath="$PROJECT_DIR$/thread_exercise/main.m" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,28 +28,28 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="h" value="337" />
-          <entry key="m" value="15246" />
+          <entry key="m" value="17589" />
           <entry key="plist" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Doxygen file" value="230" />
-          <entry key="ObjectiveC" value="15353" />
+          <entry key="Doxygen file" value="314" />
+          <entry key="ObjectiveC" value="17612" />
           <entry key="plist" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="h" value="74" />
+          <entry key="h" value="77" />
           <entry key="m" value="38" />
           <entry key="plist" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="111" />
+          <entry key="ObjectiveC" value="114" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Scratch" value="1" />
           <entry key="plist" value="6" />
@@ -61,7 +57,7 @@
       </usages-collector>
       <usages-collector id="statistics.appcode.build">
         <counts>
-          <entry key="buildservice" value="147" />
+          <entry key="buildservice" value="154" />
         </counts>
       </usages-collector>
     </session>
@@ -94,24 +90,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/thread_exercise/06RunLoop/RunLoopViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+            <state relative-caret-position="508">
+              <caret line="277" column="3" selection-start-line="277" selection-start-column="3" selection-end-line="277" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRunLoop.h">
+        <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFRunLoop.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+            <state relative-caret-position="235">
+              <caret line="50" column="2" lean-forward="true" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thread_exercise/06RunLoop/RunLoopViewController.h">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -141,6 +132,7 @@
       <find>queue</find>
       <find>cancel</find>
       <find>products</find>
+      <find>timer</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -348,12 +340,12 @@
       <workItem from="1537258997957" duration="14032000" />
       <workItem from="1537329372652" duration="190000" />
       <workItem from="1537407871675" duration="5436000" />
-      <workItem from="1537423105340" duration="2993000" />
+      <workItem from="1537423105340" duration="11948000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78931000" />
+    <option name="totallyTimeSpent" value="87886000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -398,8 +390,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include/stddef.h" />
-    <entry file="file://$PROJECT_DIR$/thread_exercise/SafeThreadViewController.h" />
     <entry file="file://$PROJECT_DIR$/thread_exercise/GCDViewController.m" />
     <entry file="file://$PROJECT_DIR$/thread_exercise/ZYHNSThread.m" />
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/math.h">
@@ -595,8 +585,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/MacTypes.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="90" column="34" lean-forward="true" selection-start-line="90" selection-start-column="34" selection-end-line="90" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRunLoop.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/thread_exercise/06RunLoop/RunLoopViewController.h">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thread_exercise/main.m">
       <provider selected="true" editor-type-id="text-editor">
@@ -608,17 +616,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRunLoop.h">
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFRunLoop.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+        <state relative-caret-position="235">
+          <caret line="50" column="2" lean-forward="true" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thread_exercise/06RunLoop/RunLoopViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+        <state relative-caret-position="508">
+          <caret line="277" column="3" selection-start-line="277" selection-start-column="3" selection-end-line="277" selection-end-column="3" />
         </state>
       </provider>
     </entry>
