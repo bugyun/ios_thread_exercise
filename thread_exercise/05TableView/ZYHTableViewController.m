@@ -121,10 +121,18 @@
             if (download) {
                 
             }else{
+                //先清空,显示占位图片
+                cell.imageView.image = nil;
+//                cell.imageView.image = [UIImage imageNamed:@""];
                 download =[NSBlockOperation blockOperationWithBlock:^{
                     NSURL *url = [NSURL URLWithString:appM.icon];
                     NSData *imageData = [NSData dataWithContentsOfURL:url];
                     UIImage *image = [UIImage imageWithData:imageData];
+                    //容错处理
+                    if (image==nil) {
+                        [self.operations removeObjectForKey:appM.icon];
+                        return;
+                    }
                     //把图片保存到内存缓存中
                     [self.images setObject:image forKey:appM.icon];
                     //写数据到沙盒
@@ -134,7 +142,8 @@
                         [self.tableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationLeft];
                         //                    cell.imageView.image = image;
                     }];
-                    
+                    //移除图片的下载操作
+                    [self.operations removeObjectForKey:appM.icon];
                 }];
                 [self.operations setObject:download forKey:appM.icon];
                 [self.queue addOperation:download];
@@ -145,6 +154,13 @@
     NSLog(@"%zd",indexPath.row);//没有复用
     //3.返回cell
     return cell;
+}
+
+- (void)didReceiveMemoryWarning{
+    //
+    [self.images removeAllObjects];
+    //取消队列中所有的操作
+    [self.queue cancelAllOperations];
 }
 
 /**
@@ -158,6 +174,7 @@
      tmp:临时路径（随时会被删除）
     3.图片不会刷新--->刷新某行
     4.图片重复下载(图片下载需要时间，当图片还未完全下载之前，又要重新显示该图片)
-    5.数据错乱
+    5.数据错乱,设置占位图片
+    6.
  */
 @end
