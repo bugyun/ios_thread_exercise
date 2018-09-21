@@ -19,7 +19,7 @@
 		5CB20F34CB23137717145DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB20CC06F799AD680EAC083 /* Assets.xcassets */; };
 		5CB20FFD7DB3FE29AF75147F /* thread_exerciseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB204E4CE220731A60F1D73 /* thread_exerciseUITests.m */; };
 		F711F077215333F900501CB0 /* RunLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F711F076215333F900501CB0 /* RunLoopViewController.m */; };
-		F711F07B21548C4600501CB0 /* HttpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F711F07A21548C4600501CB0 /* HttpViewController.m */; };
+		F711F07B21548C4600501CB0 /* NSURLConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F711F07A21548C4600501CB0 /* NSURLConnectionViewController.m */; };
 		F711F0872154C46600501CB0 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F711F07D2154C46600501CB0 /* SVRadialGradientLayer.m */; };
 		F711F0882154C46600501CB0 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F711F0802154C46600501CB0 /* SVProgressAnimatedView.m */; };
 		F711F0892154C46600501CB0 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F711F0832154C46600501CB0 /* SVProgressHUD.m */; };
@@ -69,8 +69,8 @@
 		5CB20DEE2275ACE9CC338C99 /* SafeThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeThreadViewController.h; sourceTree = "<group>"; };
 		F711F075215333F900501CB0 /* RunLoopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopViewController.h; sourceTree = "<group>"; };
 		F711F076215333F900501CB0 /* RunLoopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopViewController.m; sourceTree = "<group>"; };
-		F711F07921548C4600501CB0 /* HttpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpViewController.h; sourceTree = "<group>"; };
-		F711F07A21548C4600501CB0 /* HttpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpViewController.m; sourceTree = "<group>"; };
+		F711F07921548C4600501CB0 /* NSURLConnectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSURLConnectionViewController.h; sourceTree = "<group>"; };
+		F711F07A21548C4600501CB0 /* NSURLConnectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLConnectionViewController.m; sourceTree = "<group>"; };
 		F711F07D2154C46600501CB0 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
 		F711F07E2154C46600501CB0 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
 		F711F07F2154C46600501CB0 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
@@ -182,8 +182,8 @@
 		F711F07821548C2200501CB0 /* 07Http */ = {
 			isa = PBXGroup;
 			children = (
-				F711F07921548C4600501CB0 /* HttpViewController.h */,
-				F711F07A21548C4600501CB0 /* HttpViewController.m */,
+				F711F07921548C4600501CB0 /* NSURLConnectionViewController.h */,
+				F711F07A21548C4600501CB0 /* NSURLConnectionViewController.m */,
 			);
 			path = 07Http;
 			sourceTree = "<group>";
@@ -391,7 +391,7 @@
 				F711F08A2154C46600501CB0 /* SVIndefiniteAnimatedView.m in Sources */,
 				F72B7547214FC79C00B86FBF /* ZYHOperation.m in Sources */,
 				5CB202FBEF88C631CB1546F7 /* SafeThreadViewController.m in Sources */,
-				F711F07B21548C4600501CB0 /* HttpViewController.m in Sources */,
+				F711F07B21548C4600501CB0 /* NSURLConnectionViewController.m in Sources */,
 				5CB20E24E4C1F4A4A4BEA195 /* DownFileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

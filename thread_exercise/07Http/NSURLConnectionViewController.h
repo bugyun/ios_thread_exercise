@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-@interface HttpViewController : ViewController
+@interface NSURLConnectionViewController : ViewController
 
 @end
 

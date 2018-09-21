@@ -33,16 +33,16 @@
  *  发送数据给服务器，并收集来自服务器的响应数据
  */
 
-#import "HttpViewController.h"
+#import "NSURLConnectionViewController.h"
 #import "SVProgressHUD.h"
 
-@interface HttpViewController () <NSURLConnectionDataDelegate>
+@interface NSURLConnectionViewController () <NSURLConnectionDataDelegate>
 @property(weak, nonatomic) IBOutlet UITextField *usernameTF;
 @property(weak, nonatomic) IBOutlet UITextField *pwdTF;
 @property(nonatomic, strong) NSMutableData *resultData;
 @end
 
-@implementation HttpViewController
+@implementation NSURLConnectionViewController
 
 - (NSMutableData *)resultData {
     if (_resultData == nil) {
@@ -56,7 +56,9 @@
 //    [self getAsyncNSURLConnection];
 //    [self getDelegateNSURLConnection];
 //    [self postSyncNSURLConnection];
-    [self encoding];
+//    [self encoding];
+//    [self jsonToOC];
+    [self ocToJson];
 }
 
 //发送同步请求
@@ -232,4 +234,89 @@
         NSLog(@"%@", [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding]);
     }];
 }
+
+/**
+ * json解析方案
+ * 在ios中，json的常见解析方案有4种
+ * 1.第三方框架：JSONKit、SBJson、TouchJSON(性能从左到右，越差)
+ * 2.苹果原生（自带）：NSJSONSerialization(性能最好)
+ *
+ * NSJSONSerialization的常见方法
+ * 1.json数据->oc对象
+ *    [NSJSONSerialization JSONObjectWithData:<#(NSData *)data#> options:<#(NSJSONReadingOptions)opt#> error:<#(NSError **)error#>];
+ * 2.oc对象->json数据
+ *    [NSJSONSerialization dataWithJSONObject:<#(id)obj#> options:<#(NSJSONWritingOptions)opt#> error:<#(NSError **)error#>]
+ */
+- (void)jsonToOC {
+    /**
+     * 第一个参数：json的二进制数据
+     * 第二个参数：
+     *    NSJSONReadingMutableContainers = (1UL << 0),  可变字典和数组
+     *    NSJSONReadingMutableLeaves = (1UL << 1),      内部所有的字符串都是可变的 ios7之后有问题 一般不用
+     *    NSJSONReadingAllowFragments = (1UL << 2)      既不是字典也不是数组，则必须使用该枚举
+     * 第三个参数：错误信息
+     */
+    NSString *string = @"{\"name\":\"你好\"}";
+    NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:[string dataUsingEncoding:NSUTF8StringEncoding] options:NSJSONReadingMutableContainers error:nil];
+    NSLog(@"%@", dict);
+
+    //复杂json 写入文件
+    [dict writeToFile:@"/Users/fanpu/Downloads/language/ios/video.plist" atomically:YES];
+}
+
+//
+/**
+ * json   oc
+ * {}      @{}
+ * []       @[]
+ * ""       @""
+ * false  NSNumber 0
+ * true  NSNumber 1
+ * null     NSNull 为空
+ */
+- (void)jsonWithOC {
+    [NSNull null];//该方法获得的是一个单例，表示为空，可以用在字典或者是数组中
+}
+
+- (void)ocToJson {
+    NSDictionary *dictM = @{
+            @"name": @"zhang",
+            @"age": @3
+    };
+    //注意：并不是所有的oc对象都能转换为JSON,下面的方法用来判断是否可以转换
+    /**
+     * 转换要求：
+     * 最外层必须是 NSArray or NSDictionary
+     * 所有的元素必须是 NSString ,NSNumber,NSArray,NSDictionary,NSNull
+     * 字典中所有的key都必须是 NSString类型
+     * NSNumber 不能是无穷大
+     */
+    BOOL isValid = [NSJSONSerialization isValidJSONObject:dictM];
+    if (!isValid) {
+        NSLog(@"%zd", isValid);
+        return;
+    }
+    /**
+     * 第一个参数：要转换的oc对象
+     * 第二个参数：选项 NSJSONWritingOptions 排版
+     *    NSJSONWritingPrettyPrinted = (1UL << 0), 排版 美观
+     *    NSJSONWritingSortedKeys
+     * 第三个参数：错误信息
+     */
+    NSData *data = [NSJSONSerialization dataWithJSONObject:dictM options:NSJSONWritingPrettyPrinted error:nil];
+    NSLog(@"%@", [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding]);
+
+    NSArray *arrayM = @[@"123", @"222"];
+
+    isValid = [NSJSONSerialization isValidJSONObject:arrayM];
+    if (!isValid) {
+        NSLog(@"%zd", isValid);
+        return;
+    }
+
+    data = [NSJSONSerialization dataWithJSONObject:arrayM options:NSJSONWritingPrettyPrinted error:nil];
+    NSLog(@"%@", [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding]);
+}
+
+
 @end

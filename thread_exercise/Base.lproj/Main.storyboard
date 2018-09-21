@@ -154,10 +154,10 @@
             </objects>
             <point key="canvasLocation" x="78" y="2220"/>
         </scene>
-        <!--Http View Controller-->
+        <!--URL Connection View Controller-->
         <scene sceneID="8Oz-jF-G0y">
             <objects>
-                <viewController id="pvr-f8-faK" customClass="HttpViewController" sceneMemberID="viewController">
+                <viewController id="pvr-f8-faK" customClass="NSURLConnectionViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5Zz-2H-Kzj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
