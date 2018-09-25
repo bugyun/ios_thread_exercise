@@ -47,8 +47,8 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event {
 //    [self runLoop];
 //    [self timer];
-    [self timer2];
-//    [self timerThread];
+//    [self timer2];
+    [self timerThread];
 //    [self runLoopWithGCD];
     [self observer];
 }
@@ -255,6 +255,7 @@
 //    [runloop addTimer:timer forMode:NSDefaultRunLoopMode];
     [runloop addPort:[NSPort port] forMode:NSDefaultRunLoopMode];
     //2.默认是没有开启
+    [runloop run];
     [runloop run];
 //    [runloop runUntilDate:[NSDate dateWithTimeIntervalSinceNow:10]];//10秒后结束
     NSLog(@"----end-----");

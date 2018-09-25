@@ -25,12 +25,14 @@
 		F711F0892154C46600501CB0 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F711F0832154C46600501CB0 /* SVProgressHUD.m */; };
 		F711F08A2154C46600501CB0 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F711F0842154C46600501CB0 /* SVIndefiniteAnimatedView.m */; };
 		F711F08B2154C46600501CB0 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F711F0852154C46600501CB0 /* SVProgressHUD.bundle */; };
+		F72544042159D6DE000FC9D6 /* FileDownURLConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72544032159D6DE000FC9D6 /* FileDownURLConnectionViewController.m */; };
 		F72B7530214A842C00B86FBF /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72B752F214A842C00B86FBF /* GCDViewController.m */; };
 		F72B7536214F8C6D00B86FBF /* ZYHTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F72B7535214F8C6D00B86FBF /* ZYHTool.m */; };
 		F72B7539214F8D4A00B86FBF /* SingletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72B7538214F8D4A00B86FBF /* SingletonViewController.m */; };
 		F72B753D214F9C9B00B86FBF /* ZYHSingleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F72B753C214F9C9B00B86FBF /* ZYHSingleTool.m */; };
 		F72B7544214FA65200B86FBF /* NSOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72B7543214FA65200B86FBF /* NSOperationViewController.m */; };
 		F72B7547214FC79C00B86FBF /* ZYHOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F72B7546214FC79C00B86FBF /* ZYHOperation.m */; };
+		F7464E94215A102200D1FBD4 /* NSURLSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7464E93215A102200D1FBD4 /* NSURLSessionViewController.m */; };
 		F7C6E54321511FDA00F7FB3C /* ZYHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C6E54221511FDA00F7FB3C /* ZYHTableViewController.m */; };
 		F7C6E5462151F0A000F7FB3C /* ZYHAPP.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C6E5452151F0A000F7FB3C /* ZYHAPP.m */; };
 		F7C6E54A2151FA1800F7FB3C /* apps.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7C6E5492151FA1800F7FB3C /* apps.plist */; };
@@ -81,6 +83,8 @@
 		F711F0842154C46600501CB0 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
 		F711F0852154C46600501CB0 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		F711F0862154C46600501CB0 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		F72544022159D6DE000FC9D6 /* FileDownURLConnectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileDownURLConnectionViewController.h; sourceTree = "<group>"; };
+		F72544032159D6DE000FC9D6 /* FileDownURLConnectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileDownURLConnectionViewController.m; sourceTree = "<group>"; };
 		F72B752E214A842C00B86FBF /* GCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
 		F72B752F214A842C00B86FBF /* GCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
 		F72B7534214F8C6D00B86FBF /* ZYHTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYHTool.h; sourceTree = "<group>"; };
@@ -94,6 +98,8 @@
 		F72B7543214FA65200B86FBF /* NSOperationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOperationViewController.m; sourceTree = "<group>"; };
 		F72B7545214FC79C00B86FBF /* ZYHOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYHOperation.h; sourceTree = "<group>"; };
 		F72B7546214FC79C00B86FBF /* ZYHOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYHOperation.m; sourceTree = "<group>"; };
+		F7464E92215A102200D1FBD4 /* NSURLSessionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSURLSessionViewController.h; sourceTree = "<group>"; };
+		F7464E93215A102200D1FBD4 /* NSURLSessionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLSessionViewController.m; sourceTree = "<group>"; };
 		F7C6E54121511FDA00F7FB3C /* ZYHTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYHTableViewController.h; sourceTree = "<group>"; };
 		F7C6E54221511FDA00F7FB3C /* ZYHTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYHTableViewController.m; sourceTree = "<group>"; };
 		F7C6E5442151F0A000F7FB3C /* ZYHAPP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYHAPP.h; sourceTree = "<group>"; };
@@ -184,6 +190,10 @@
 			children = (
 				F711F07921548C4600501CB0 /* NSURLConnectionViewController.h */,
 				F711F07A21548C4600501CB0 /* NSURLConnectionViewController.m */,
+				F72544022159D6DE000FC9D6 /* FileDownURLConnectionViewController.h */,
+				F72544032159D6DE000FC9D6 /* FileDownURLConnectionViewController.m */,
+				F7464E92215A102200D1FBD4 /* NSURLSessionViewController.h */,
+				F7464E93215A102200D1FBD4 /* NSURLSessionViewController.m */,
 			);
 			path = 07Http;
 			sourceTree = "<group>";
@@ -389,8 +399,10 @@
 				F711F077215333F900501CB0 /* RunLoopViewController.m in Sources */,
 				F711F0872154C46600501CB0 /* SVRadialGradientLayer.m in Sources */,
 				F711F08A2154C46600501CB0 /* SVIndefiniteAnimatedView.m in Sources */,
+				F7464E94215A102200D1FBD4 /* NSURLSessionViewController.m in Sources */,
 				F72B7547214FC79C00B86FBF /* ZYHOperation.m in Sources */,
 				5CB202FBEF88C631CB1546F7 /* SafeThreadViewController.m in Sources */,
+				F72544042159D6DE000FC9D6 /* FileDownURLConnectionViewController.m in Sources */,
 				F711F07B21548C4600501CB0 /* NSURLConnectionViewController.m in Sources */,
 				5CB20E24E4C1F4A4A4BEA195 /* DownFileViewController.m in Sources */,
 			);
