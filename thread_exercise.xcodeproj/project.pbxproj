@@ -25,6 +25,9 @@
 		F711F0892154C46600501CB0 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F711F0832154C46600501CB0 /* SVProgressHUD.m */; };
 		F711F08A2154C46600501CB0 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F711F0842154C46600501CB0 /* SVIndefiniteAnimatedView.m */; };
 		F711F08B2154C46600501CB0 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F711F0852154C46600501CB0 /* SVProgressHUD.bundle */; };
+		F7159F7A215F24B100938BF6 /* RunTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7159F79215F24B100938BF6 /* RunTimeViewController.m */; };
+		F7159F80215F5E3800938BF6 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = F7159F7F215F5E3800938BF6 /* UIImage+Image.m */; };
+		F7159F83215F657500938BF6 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F7159F82215F657500938BF6 /* Person.m */; };
 		F72544042159D6DE000FC9D6 /* FileDownURLConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72544032159D6DE000FC9D6 /* FileDownURLConnectionViewController.m */; };
 		F72B7530214A842C00B86FBF /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72B752F214A842C00B86FBF /* GCDViewController.m */; };
 		F72B7536214F8C6D00B86FBF /* ZYHTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F72B7535214F8C6D00B86FBF /* ZYHTool.m */; };
@@ -33,9 +36,12 @@
 		F72B7544214FA65200B86FBF /* NSOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72B7543214FA65200B86FBF /* NSOperationViewController.m */; };
 		F72B7547214FC79C00B86FBF /* ZYHOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F72B7546214FC79C00B86FBF /* ZYHOperation.m */; };
 		F7464E94215A102200D1FBD4 /* NSURLSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7464E93215A102200D1FBD4 /* NSURLSessionViewController.m */; };
+		F777CB4A215F183D0092A0C0 /* IOS9ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F777CB49215F183D0092A0C0 /* IOS9ViewController.m */; };
+		F777CB4D215F1D960092A0C0 /* Language.m in Sources */ = {isa = PBXBuildFile; fileRef = F777CB4C215F1D960092A0C0 /* Language.m */; };
 		F7C6E54321511FDA00F7FB3C /* ZYHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C6E54221511FDA00F7FB3C /* ZYHTableViewController.m */; };
 		F7C6E5462151F0A000F7FB3C /* ZYHAPP.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C6E5452151F0A000F7FB3C /* ZYHAPP.m */; };
 		F7C6E54A2151FA1800F7FB3C /* apps.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7C6E5492151FA1800F7FB3C /* apps.plist */; };
+		F7D6B078215F75EC00669F6C /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D6B077215F75EC00669F6C /* NSObject+Property.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +89,12 @@
 		F711F0842154C46600501CB0 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
 		F711F0852154C46600501CB0 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		F711F0862154C46600501CB0 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		F7159F78215F24B100938BF6 /* RunTimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunTimeViewController.h; sourceTree = "<group>"; };
+		F7159F79215F24B100938BF6 /* RunTimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunTimeViewController.m; sourceTree = "<group>"; };
+		F7159F7E215F5E3800938BF6 /* UIImage+Image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		F7159F7F215F5E3800938BF6 /* UIImage+Image.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		F7159F81215F657500938BF6 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		F7159F82215F657500938BF6 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		F72544022159D6DE000FC9D6 /* FileDownURLConnectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileDownURLConnectionViewController.h; sourceTree = "<group>"; };
 		F72544032159D6DE000FC9D6 /* FileDownURLConnectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileDownURLConnectionViewController.m; sourceTree = "<group>"; };
 		F72B752E214A842C00B86FBF /* GCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
@@ -100,11 +112,17 @@
 		F72B7546214FC79C00B86FBF /* ZYHOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYHOperation.m; sourceTree = "<group>"; };
 		F7464E92215A102200D1FBD4 /* NSURLSessionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSURLSessionViewController.h; sourceTree = "<group>"; };
 		F7464E93215A102200D1FBD4 /* NSURLSessionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLSessionViewController.m; sourceTree = "<group>"; };
+		F777CB48215F183D0092A0C0 /* IOS9ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOS9ViewController.h; sourceTree = "<group>"; };
+		F777CB49215F183D0092A0C0 /* IOS9ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOS9ViewController.m; sourceTree = "<group>"; };
+		F777CB4B215F1D960092A0C0 /* Language.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Language.h; sourceTree = "<group>"; };
+		F777CB4C215F1D960092A0C0 /* Language.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Language.m; sourceTree = "<group>"; };
 		F7C6E54121511FDA00F7FB3C /* ZYHTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYHTableViewController.h; sourceTree = "<group>"; };
 		F7C6E54221511FDA00F7FB3C /* ZYHTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYHTableViewController.m; sourceTree = "<group>"; };
 		F7C6E5442151F0A000F7FB3C /* ZYHAPP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYHAPP.h; sourceTree = "<group>"; };
 		F7C6E5452151F0A000F7FB3C /* ZYHAPP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYHAPP.m; sourceTree = "<group>"; };
 		F7C6E5492151FA1800F7FB3C /* apps.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apps.plist; sourceTree = "<group>"; };
+		F7D6B076215F75EC00669F6C /* NSObject+Property.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
+		F7D6B077215F75EC00669F6C /* NSObject+Property.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,7 +164,6 @@
 		5CB20BD9089BEF78C0C12FC4 /* thread_exercise */ = {
 			isa = PBXGroup;
 			children = (
-				F711F07C2154C46600501CB0 /* SVProgressHUD */,
 				F72B7541214F9FED00B86FBF /* 01NSThread */,
 				F72B753F214F9F9A00B86FBF /* 02GCD */,
 				F72B7540214F9FA700B86FBF /* 03Single */,
@@ -154,6 +171,8 @@
 				F7C6E54021511F2F00F7FB3C /* 05TableView */,
 				F711F0742153339800501CB0 /* 06RunLoop */,
 				F711F07821548C2200501CB0 /* 07Http */,
+				F777CB47215F17D70092A0C0 /* 08ios9特性 */,
+				F7159F77215F21B900938BF6 /* 09runtime */,
 				5CB205CCB11A6CDE85B25B4C /* AppDelegate.h */,
 				5CB20D513697B9B7E3D02F80 /* AppDelegate.m */,
 				F7C6E5492151FA1800F7FB3C /* apps.plist */,
@@ -162,6 +181,7 @@
 				5CB2099919AAA62897435196 /* LaunchScreen.storyboard */,
 				5CB20D96011391E80E5C9A9F /* main.m */,
 				5CB202F98A900DB5CD588314 /* Main.storyboard */,
+				F711F07C2154C46600501CB0 /* SVProgressHUD */,
 			);
 			path = thread_exercise;
 			sourceTree = "<group>";
@@ -215,6 +235,21 @@
 			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
+		F7159F77215F21B900938BF6 /* 09runtime */ = {
+			isa = PBXGroup;
+			children = (
+				F7159F78215F24B100938BF6 /* RunTimeViewController.h */,
+				F7159F79215F24B100938BF6 /* RunTimeViewController.m */,
+				F7159F7E215F5E3800938BF6 /* UIImage+Image.h */,
+				F7159F7F215F5E3800938BF6 /* UIImage+Image.m */,
+				F7159F81215F657500938BF6 /* Person.h */,
+				F7159F82215F657500938BF6 /* Person.m */,
+				F7D6B076215F75EC00669F6C /* NSObject+Property.h */,
+				F7D6B077215F75EC00669F6C /* NSObject+Property.m */,
+			);
+			path = 09runtime;
+			sourceTree = "<group>";
+		};
 		F72B753E214F9F6300B86FBF /* 04NSOperation */ = {
 			isa = PBXGroup;
 			children = (
@@ -262,6 +297,17 @@
 				5CB201FE63662F41128012AB /* DownFileViewController.m */,
 			);
 			path = 01NSThread;
+			sourceTree = "<group>";
+		};
+		F777CB47215F17D70092A0C0 /* 08ios9特性 */ = {
+			isa = PBXGroup;
+			children = (
+				F777CB48215F183D0092A0C0 /* IOS9ViewController.h */,
+				F777CB49215F183D0092A0C0 /* IOS9ViewController.m */,
+				F777CB4B215F1D960092A0C0 /* Language.h */,
+				F777CB4C215F1D960092A0C0 /* Language.m */,
+			);
+			path = "08ios9特性";
 			sourceTree = "<group>";
 		};
 		F7C6E54021511F2F00F7FB3C /* 05TableView */ = {
@@ -385,17 +431,23 @@
 			files = (
 				5CB2036649417676833564EC /* main.m in Sources */,
 				F72B7544214FA65200B86FBF /* NSOperationViewController.m in Sources */,
+				F7D6B078215F75EC00669F6C /* NSObject+Property.m in Sources */,
 				5CB201310C3CB8696DE06DB4 /* AppDelegate.m in Sources */,
 				5CB20E668C0FEF69FCAE5C1C /* ViewController.m in Sources */,
 				F72B753D214F9C9B00B86FBF /* ZYHSingleTool.m in Sources */,
 				F711F0882154C46600501CB0 /* SVProgressAnimatedView.m in Sources */,
+				F7159F83215F657500938BF6 /* Person.m in Sources */,
 				F72B7539214F8D4A00B86FBF /* SingletonViewController.m in Sources */,
+				F7159F80215F5E3800938BF6 /* UIImage+Image.m in Sources */,
 				F711F0892154C46600501CB0 /* SVProgressHUD.m in Sources */,
 				5CB20C44777B5809EDC60B11 /* ZYHNSThread.m in Sources */,
+				F777CB4D215F1D960092A0C0 /* Language.m in Sources */,
 				F7C6E5462151F0A000F7FB3C /* ZYHAPP.m in Sources */,
 				F72B7530214A842C00B86FBF /* GCDViewController.m in Sources */,
+				F7159F7A215F24B100938BF6 /* RunTimeViewController.m in Sources */,
 				F72B7536214F8C6D00B86FBF /* ZYHTool.m in Sources */,
 				F7C6E54321511FDA00F7FB3C /* ZYHTableViewController.m in Sources */,
+				F777CB4A215F183D0092A0C0 /* IOS9ViewController.m in Sources */,
 				F711F077215333F900501CB0 /* RunLoopViewController.m in Sources */,
 				F711F0872154C46600501CB0 /* SVRadialGradientLayer.m in Sources */,
 				F711F08A2154C46600501CB0 /* SVIndefiniteAnimatedView.m in Sources */,
@@ -501,6 +553,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HHLU6JKK4A;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = thread_exercise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ruoyun.thread-exercise";
@@ -514,6 +567,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HHLU6JKK4A;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = thread_exercise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ruoyun.thread-exercise";
