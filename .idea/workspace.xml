@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1afbd12-a346-4da7-a6eb-0b51695e442c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/thread_exercise/08ios9特性/IOS9ViewController.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread_exercise/08ios9特性/IOS9ViewController.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread_exercise/08ios9特性/Language.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread_exercise/08ios9特性/Language.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread_exercise/09runtime/NSObject+Property.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread_exercise/09runtime/NSObject+Property.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread_exercise/09runtime/Person.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread_exercise/09runtime/Person.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread_exercise/09runtime/RunTimeViewController.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread_exercise/09runtime/RunTimeViewController.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread_exercise/09runtime/UIImage+Image.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread_exercise/09runtime/UIImage+Image.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread_exercise/10block/BlockManager.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread_exercise/10block/BlockManager.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread_exercise/10block/BlockViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread_exercise/10block/BlockViewController.m" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thread_exercise.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/thread_exercise.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread_exercise/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/thread_exercise/Base.lproj/Main.storyboard" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,27 +21,29 @@
     <session id="23215675">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="3" />
-          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="h" value="345" />
-          <entry key="m" value="25308" />
+          <entry key="m" value="25989" />
           <entry key="plist" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Doxygen file" value="658" />
-          <entry key="ObjectiveC" value="24995" />
+          <entry key="ObjectiveC" value="25676" />
           <entry key="plist" value="24" />
         </counts>
       </usages-collector>
@@ -56,13 +51,13 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="h" value="120" />
-          <entry key="m" value="56" />
+          <entry key="m" value="58" />
           <entry key="plist" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="175" />
+          <entry key="ObjectiveC" value="177" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Scratch" value="1" />
           <entry key="plist" value="6" />
@@ -80,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thread_exercise/09runtime/RunTimeViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
+            <state relative-caret-position="1173">
               <caret line="69" column="3" selection-start-line="69" selection-start-column="3" selection-end-line="69" selection-end-column="3" />
               <folding>
                 <element signature="e#141#174#0" expanded="true" />
@@ -89,11 +84,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thread_exercise/09runtime/Person.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+            <state relative-caret-position="311">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thread_exercise/10block/BlockViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thread_exercise/10block/BlockManager.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -101,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thread_exercise/09runtime/NSObject+Property.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+            <state relative-caret-position="493">
+              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -125,8 +138,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thread_exercise/09runtime/UIImage+Image.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+            <state relative-caret-position="136">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -200,6 +213,8 @@
         <option value="$PROJECT_DIR$/thread_exercise/09runtime/RunTimeViewController.m" />
         <option value="$PROJECT_DIR$/thread_exercise/09runtime/Person.m" />
         <option value="$PROJECT_DIR$/thread_exercise/09runtime/NSObject+Property.m" />
+        <option value="$PROJECT_DIR$/thread_exercise/10block/BlockViewController.m" />
+        <option value="$PROJECT_DIR$/thread_exercise/10block/BlockManager.m" />
       </list>
     </option>
   </component>
@@ -298,7 +313,6 @@
     </navigator>
     <panes>
       <pane id="Cidr.FilesView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -315,12 +329,13 @@
               <item name="" type="efc3779f:XcodeRootNode" />
               <item name="thread_exercise" type="1d218c8b:XcodeProjectNode" />
               <item name="thread_exercise" type="fcab9f18:XcodeViewNode" />
-              <item name="09runtime" type="fcab9f18:XcodeViewNode" />
+              <item name="10block" type="fcab9f18:XcodeViewNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -380,12 +395,15 @@
       <workItem from="1537853379926" duration="8372000" />
       <workItem from="1537955658315" duration="478000" />
       <workItem from="1538119120277" duration="4491000" />
-      <workItem from="1538189118367" duration="9884000" />
+      <workItem from="1538189118367" duration="10557000" />
+      <workItem from="1538270357935" duration="40000" />
+      <workItem from="1538272159851" duration="820000" />
+      <workItem from="1538963553446" duration="3781000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132760000" />
+    <option name="totallyTimeSpent" value="138074000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -400,7 +418,7 @@
     <frame x="256" y="23" width="1184" height="824" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21541156" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22591944" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -465,14 +483,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thread_exercise/Info.plist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/0219/代码/12-掌握-多图下载综合案例-数据展示/12-掌握-多图下载综合案例-数据展示/apps.plist" />
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSIndexPath.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-73">
@@ -726,7 +736,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thread_exercise/09runtime/RunTimeViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
+        <state relative-caret-position="1173">
           <caret line="69" column="3" selection-start-line="69" selection-start-column="3" selection-end-line="69" selection-end-column="3" />
           <folding>
             <element signature="e#141#174#0" expanded="true" />
@@ -734,18 +744,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thread_exercise/09runtime/UIImage+Image.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread_exercise/09runtime/UIImage+Image.m">
+    <entry file="file://$PROJECT_DIR$/thread_exercise/09runtime/NSObject+Property.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        <state relative-caret-position="493">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread_exercise/09runtime/NSObject+Property.h">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/thread_exercise/09runtime/Person.h">
       <provider selected="true" editor-type-id="text-editor" />
@@ -753,17 +757,37 @@
     <entry file="file://$PROJECT_DIR$/thread_exercise/09runtime/RunTimeViewController.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/thread_exercise/09runtime/NSObject+Property.m">
+    <entry file="file://$PROJECT_DIR$/thread_exercise/09runtime/UIImage+Image.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread_exercise/09runtime/NSObject+Property.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread_exercise/09runtime/UIImage+Image.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        <state relative-caret-position="136">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thread_exercise/09runtime/Person.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+        <state relative-caret-position="311">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread_exercise/10block/BlockViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread_exercise/10block/BlockManager.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
         </state>
       </provider>
     </entry>

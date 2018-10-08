@@ -38,6 +38,8 @@
 		F7464E94215A102200D1FBD4 /* NSURLSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7464E93215A102200D1FBD4 /* NSURLSessionViewController.m */; };
 		F777CB4A215F183D0092A0C0 /* IOS9ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F777CB49215F183D0092A0C0 /* IOS9ViewController.m */; };
 		F777CB4D215F1D960092A0C0 /* Language.m in Sources */ = {isa = PBXBuildFile; fileRef = F777CB4C215F1D960092A0C0 /* Language.m */; };
+		F7B97448216AF4F30086EE73 /* BlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B97447216AF4F30086EE73 /* BlockViewController.m */; };
+		F7B9744C216B06AF0086EE73 /* BlockManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B9744B216B06AF0086EE73 /* BlockManager.m */; };
 		F7C6E54321511FDA00F7FB3C /* ZYHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C6E54221511FDA00F7FB3C /* ZYHTableViewController.m */; };
 		F7C6E5462151F0A000F7FB3C /* ZYHAPP.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C6E5452151F0A000F7FB3C /* ZYHAPP.m */; };
 		F7C6E54A2151FA1800F7FB3C /* apps.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7C6E5492151FA1800F7FB3C /* apps.plist */; };
@@ -116,6 +118,10 @@
 		F777CB49215F183D0092A0C0 /* IOS9ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOS9ViewController.m; sourceTree = "<group>"; };
 		F777CB4B215F1D960092A0C0 /* Language.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Language.h; sourceTree = "<group>"; };
 		F777CB4C215F1D960092A0C0 /* Language.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Language.m; sourceTree = "<group>"; };
+		F7B97446216AF4F30086EE73 /* BlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockViewController.h; sourceTree = "<group>"; };
+		F7B97447216AF4F30086EE73 /* BlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockViewController.m; sourceTree = "<group>"; };
+		F7B9744A216B06AF0086EE73 /* BlockManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockManager.h; sourceTree = "<group>"; };
+		F7B9744B216B06AF0086EE73 /* BlockManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockManager.m; sourceTree = "<group>"; };
 		F7C6E54121511FDA00F7FB3C /* ZYHTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYHTableViewController.h; sourceTree = "<group>"; };
 		F7C6E54221511FDA00F7FB3C /* ZYHTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYHTableViewController.m; sourceTree = "<group>"; };
 		F7C6E5442151F0A000F7FB3C /* ZYHAPP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYHAPP.h; sourceTree = "<group>"; };
@@ -143,6 +149,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5CB202147989682C2AF44854 /* 10block */ = {
+			isa = PBXGroup;
+			children = (
+				F7B97446216AF4F30086EE73 /* BlockViewController.h */,
+				F7B97447216AF4F30086EE73 /* BlockViewController.m */,
+				F7B9744A216B06AF0086EE73 /* BlockManager.h */,
+				F7B9744B216B06AF0086EE73 /* BlockManager.m */,
+			);
+			path = 10block;
+			sourceTree = "<group>";
+		};
 		5CB204E0A1AD57E0AC5E5FCA /* thread_exerciseUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +190,7 @@
 				F711F07821548C2200501CB0 /* 07Http */,
 				F777CB47215F17D70092A0C0 /* 08ios9特性 */,
 				F7159F77215F21B900938BF6 /* 09runtime */,
+				5CB202147989682C2AF44854 /* 10block */,
 				5CB205CCB11A6CDE85B25B4C /* AppDelegate.h */,
 				5CB20D513697B9B7E3D02F80 /* AppDelegate.m */,
 				F7C6E5492151FA1800F7FB3C /* apps.plist */,
@@ -434,6 +452,7 @@
 				F7D6B078215F75EC00669F6C /* NSObject+Property.m in Sources */,
 				5CB201310C3CB8696DE06DB4 /* AppDelegate.m in Sources */,
 				5CB20E668C0FEF69FCAE5C1C /* ViewController.m in Sources */,
+				F7B9744C216B06AF0086EE73 /* BlockManager.m in Sources */,
 				F72B753D214F9C9B00B86FBF /* ZYHSingleTool.m in Sources */,
 				F711F0882154C46600501CB0 /* SVProgressAnimatedView.m in Sources */,
 				F7159F83215F657500938BF6 /* Person.m in Sources */,
@@ -443,6 +462,7 @@
 				5CB20C44777B5809EDC60B11 /* ZYHNSThread.m in Sources */,
 				F777CB4D215F1D960092A0C0 /* Language.m in Sources */,
 				F7C6E5462151F0A000F7FB3C /* ZYHAPP.m in Sources */,
+				F7B97448216AF4F30086EE73 /* BlockViewController.m in Sources */,
 				F72B7530214A842C00B86FBF /* GCDViewController.m in Sources */,
 				F7159F7A215F24B100938BF6 /* RunTimeViewController.m in Sources */,
 				F72B7536214F8C6D00B86FBF /* ZYHTool.m in Sources */,
