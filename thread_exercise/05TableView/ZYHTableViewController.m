@@ -76,16 +76,16 @@
 
 //cell长什么样子
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+
     static NSString *ID = @"app";
     //1.创建cell
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
-    
-    
+
+
     //2.设置cell
     //2.1拿到改行cell对应的h数据
     ZYHAPP *appM = self.apps[indexPath.row];
-    
+
     //2.2 设置标题
     cell.textLabel.text = appM.name;
     //2.3 设置子标题
@@ -95,7 +95,7 @@
     //如果有磁盘缓存，那么保存一份到内存s，设置图片，否则就直接去下载
     //1）没有下载过
     //2）重新打开程序
-    
+
     UIImage *image= [self.images objectForKey:appM.icon];
     if (image) {
         cell.imageView.image = image;
@@ -108,7 +108,7 @@
         NSString *fullPath = [caches stringByAppendingPathComponent:fileName];
         //检查磁盘缓存
         NSData *imageData = [NSData dataWithContentsOfFile:fullPath];
-        
+
         imageData = nil;
         if (imageData) {
             UIImage *image = [UIImage imageWithData:imageData];
@@ -119,7 +119,7 @@
             //检查该图片是否正在下载，如果是那就什么都不做，否则再添加下载任务
             NSBlockOperation *download = [self.operations objectForKey:appM.icon];
             if (download) {
-                
+
             }else{
                 //先清空,显示占位图片
                 cell.imageView.image = nil;

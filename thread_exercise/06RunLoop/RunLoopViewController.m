@@ -50,7 +50,7 @@
 //    [self timer2];
     [self timerThread];
 //    [self runLoopWithGCD];
-    [self observer];
+//    [self observer];
 }
 
 - (void)runLoop {
@@ -147,6 +147,7 @@
         //如果不手动设置 NSRunLoop ，那么下面的代码就不会执行
         [NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(timerRun) userInfo:nil repeats:YES];
         [currentRunLoop run];//开启runloop
+        NSLog(@"detachNewThreadWithBlock 结束");
     }];
 }
 

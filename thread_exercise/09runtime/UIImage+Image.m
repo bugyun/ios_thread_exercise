@@ -12,20 +12,20 @@
 @implementation UIImage (Image)
 
 //把类加载进内存的时候调用，只会调用一次
-+(void)load{
++ (void)load {
     //获取imageNamed
-   Method imageNamedMethod  = class_getClassMethod(self, @selector(imageNamed:));
+    Method imageNamedMethod = class_getClassMethod(self, @selector(imageNamed:));
     //获取zyh_imageNamed
-    Method zyh_imageNamedMethod  = class_getClassMethod(self, @selector(zyh_imageNamed:));
+    Method zyh_imageNamedMethod = class_getClassMethod(self, @selector(zyh_imageNamed:));
     //交换方法： runtime
     method_exchangeImplementations(imageNamedMethod, zyh_imageNamedMethod);
 }
 
-+(UIImage *) zyh_imageNamed:(NSString *) name{
++ (UIImage *)zyh_imageNamed:(NSString *)name {
     UIImage *image = [UIImage zyh_imageNamed:name];
     if (image) {
         NSLog(@"加载成功");
-    }else{
+    } else {
         NSLog(@"加载失败");
     }
     return image;
